@@ -1,10 +1,8 @@
-Задание:
+Task:
 
-Изучить особенности протоколов и форматов обмена информацией между системами: JSON, YAML, XML. Написать программу на языке Python 3.x, 
-которая бы осуществляла парсинг и конвертацию исходного файла в новый.
-Отчет:
+Study the characteristics of protocols and formats used for data exchange between systems: JSON, YAML, XML. Write a program in Python 3.x that performs parsing and conversion of the source file into a new format.
 
--Исходный формат файла:
+Source file format:
 
 subjects = { 
             "subject1": { 
@@ -46,37 +44,35 @@ subjects = {
         }
         
               
--Обязательное задание:
+- Mandatory Task:
 
-Написать программу на языке Python 3.x, которая бы осуществляла парсинг и конвертацию исходного файла в новый.
+Write a Python 3.x program that parses and converts the original file into a new format.
 
--Дополнительное задание 1:
+- Additional Task 1:
 
-Переписать исходный код, применив найденные библиотеки. Регулярные выражения также нельзя использовать.
+Rewrite the original code using appropriate libraries. Regular expressions are not allowed.
 
--Дополнительное задание 2:
+- Additional Task 2:
 
-Переписать исходный код, добавив в него использование регулярных выражений
+Rewrite the original code using regular expressions.
 
--Дополнительное задание 3:
+Additional Task 3:
 
-Используя свою исходную программу из обязательного задания, программу из дополнительного задания №1 и программу из дополнительного задания №2, 
-сравнить десятикратное время выполнения парсинга + конвертации в цикле.
+Using your programs from the mandatory task, additional task 1, and additional task 2, compare the execution time of parsing + conversion by running each 10 times in a loop.
 
-Командой python -m timeit "from lab4_parser import функция" найдем время:
+python -m timeit "from lab4_parser import function"
 
-Вывод:
+Result:
+
 1)500000 loops, best of 5: 850 nsec per loop
 
 2)500000 loops, best of 5: 848 nsec per loop
 
 3)500000 loops, best of 5: 868 nsec per loop
 
--Дополнительное задание 4:
+- Additional Task 4:
 
-Переписать исходную, чтобы она осуществляла парсинг и конвертацию исходного файла в любой другой формат 
-(кроме JSON, YAML, XML, HTML): PROTOBUF, TSV, CSV, WML и т.п.
-
+Rewrite the original code to perform parsing and conversion of the source file into another format (other than JSON, YAML, XML, HTML): e.g., PROTOBUF, TSV, CSV, WML, etc.
 
 
 
